@@ -1,0 +1,39 @@
+{
+  "name": "react-native-expo-demo",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "license": "",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "exp start --offline",
+    "eject": "exp detach",
+    "android": "exp start --android --offline",
+    "ios": "exp start --ios --offline",
+    "test": "node ./node_modules/jest/bin/jest.js --watch",
+    "login": "exp login --github",
+    "publish": "exp publish --non-interactive"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "^2.0.2",
+    "expo": "^20.0.0",
+    "moment": "^2.18.1",
+    "react": "16.0.0-alpha.12",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-20.0.0.tar.gz",
+    "react-native-material-initials": "^0.0.11",
+    "react-navigation": "^1.0.0-beta.12",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "eslint-config-universe": "^1.0.5",
+    "jest-expo": "^20.0.0",
+    "prettier": "^1.7.0"
+  },
+  "eslintConfig": {
+    "extends": "universe/native"
+  }
+}
