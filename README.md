@@ -1,7 +1,7 @@
 # React Native Expo Demo
 A simple demo of an app using React Native / Expo.
 
-[Companion Cocoaheads presentation here.](https://exp.host/@llamaluvr/react-native-expo-demo)
+[Companion Cocoaheads presentation here.](https://github.com/llamaluvr/react-native-expo-demo/blob/master/cocoaheadspresentation.key)
 
 ## Running the app in your local dev environment on the iPhone Simulator
 
