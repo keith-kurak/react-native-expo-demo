@@ -1,10 +1,8 @@
-import { Notifications } from 'expo';
-import React from 'react';
 import { StackNavigator } from 'react-navigation';
 
 import MainStackNavigator from './MainStackNavigator';
 import CreateMessageStack from './CreateMessageStack';
-import registerForPushNotificationsAsync from '../api/registerForPushNotificationsAsync';
+import ChatStack from './ChatStack';
 
 const RootStackNavigator = StackNavigator(
   {
@@ -13,6 +11,9 @@ const RootStackNavigator = StackNavigator(
     },
     CreateMessage: {
       screen: CreateMessageStack,
+    },
+    Chat: {
+      screen: ChatStack,
     },
   },
   {

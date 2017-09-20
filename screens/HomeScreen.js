@@ -11,6 +11,12 @@ export default class HomeScreen extends Component {
       onPress={() => navigation.navigate('CreateMessage')}
       name="open-in-new"
     />),
+    headerLeft:
+    (<NavbarIcon
+      onPress={() => navigation.navigate('Chat')}
+      name="chat"
+      style={{ marginLeft: 5 }}
+    />),
   });
 
   constructor() {
